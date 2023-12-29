@@ -1,0 +1,53 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.6)
+      public_suffix (>= 2.0.2, < 6.0)
+    baran (0.1.10)
+    base64 (0.2.0)
+    colorize (0.8.1)
+    dotenv (2.8.1)
+    event_stream_parser (0.3.0)
+    faraday (2.8.1)
+      base64
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-multipart (1.0.4)
+      multipart-post (~> 2)
+    faraday-net_http (3.0.2)
+    json-schema (4.0.0)
+      addressable (>= 2.8)
+    langchainrb (0.8.2)
+      baran (~> 0.1.9)
+      colorize (~> 0.8.1)
+      json-schema (~> 4.0.0)
+      matrix
+      pragmatic_segmenter (~> 0.3.0)
+      tiktoken_ruby (~> 0.0.5)
+      to_bool (~> 2.0.0)
+      zeitwerk (~> 2.5)
+    matrix (0.4.2)
+    multipart-post (2.3.0)
+    pragmatic_segmenter (0.3.23)
+      unicode
+    public_suffix (5.0.4)
+    ruby-openai (6.1.0)
+      event_stream_parser (>= 0.3.0, < 1.0.0)
+      faraday (>= 1)
+      faraday-multipart (>= 1)
+    ruby2_keywords (0.0.5)
+    tiktoken_ruby (0.0.6-x64-mingw-ucrt)
+    to_bool (2.0.0)
+    unicode (0.4.4.4)
+    zeitwerk (2.6.12)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  dotenv (~> 2.8, >= 2.8.1)
+  langchainrb (~> 0.8.2)
+  ruby-openai (~> 6.1.0)
+
+BUNDLED WITH
+   2.4.19
